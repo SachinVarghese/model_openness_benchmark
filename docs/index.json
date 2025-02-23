@@ -1,10 +1,938 @@
 [
-    {
-        "name": "Amber",
-        "url": "/models/Amber.yml"
-    },
-    {
-        "name": "Aquila-7B",
-        "url": "/models/Aquila-7B.yml"
-    }
+  {
+    "name": "Amber",
+    "url": "/models/Amber.yml"
+  },
+  {
+    "name": "Aquila-7B",
+    "url": "/models/Aquila-7B.yml"
+  },
+  {
+    "name": "Aquila-VL-2B",
+    "url": "/models/Aquila-VL-2B.yml"
+  },
+  {
+    "name": "AraGPT2",
+    "url": "/models/AraGPT2.yml"
+  },
+  {
+    "name": "Arctic-Base",
+    "url": "/models/Arctic-Base.yml"
+  },
+  {
+    "name": "Arctic-Instruct",
+    "url": "/models/Arctic-Instruct.yml"
+  },
+  {
+    "name": "BLOOM",
+    "url": "/models/BLOOM.yml"
+  },
+  {
+    "name": "BTLM-3B-8k-base-",
+    "url": "/models/BTLM-3B-8k-base-.yml"
+  },
+  {
+    "name": "Baichuan-1-13B",
+    "url": "/models/Baichuan-1-13B.yml"
+  },
+  {
+    "name": "Baichuan-1-53B",
+    "url": "/models/Baichuan-1-53B.yml"
+  },
+  {
+    "name": "Baichuan-1-7B",
+    "url": "/models/Baichuan-1-7B.yml"
+  },
+  {
+    "name": "Baichuan-2",
+    "url": "/models/Baichuan-2.yml"
+  },
+  {
+    "name": "Bilingual-gpt-neox-4b",
+    "url": "/models/Bilingual-gpt-neox-4b.yml"
+  },
+  {
+    "name": "BioMedGPT",
+    "url": "/models/BioMedGPT.yml"
+  },
+  {
+    "name": "BlackMamba-2",
+    "url": "/models/BlackMamba-2.8B.yml"
+  },
+  {
+    "name": "BloombergGPT",
+    "url": "/models/BloombergGPT.yml"
+  },
+  {
+    "name": "ByT5",
+    "url": "/models/ByT5.yml"
+  },
+  {
+    "name": "CPM-2",
+    "url": "/models/CPM-2.yml"
+  },
+  {
+    "name": "CPM",
+    "url": "/models/CPM.yml"
+  },
+  {
+    "name": "CerebrasGPT",
+    "url": "/models/CerebrasGPT.yml"
+  },
+  {
+    "name": "ChatGLM",
+    "url": "/models/ChatGLM.yml"
+  },
+  {
+    "name": "ChatGLM2",
+    "url": "/models/ChatGLM2.yml"
+  },
+  {
+    "name": "ChatGLM3",
+    "url": "/models/ChatGLM3.yml"
+  },
+  {
+    "name": "Chinchilla",
+    "url": "/models/Chinchilla.yml"
+  },
+  {
+    "name": "Claude-1",
+    "url": "/models/Claude-1.yml"
+  },
+  {
+    "name": "Claude-2",
+    "url": "/models/Claude-2.yml"
+  },
+  {
+    "name": "CodeFuse",
+    "url": "/models/CodeFuse.yml"
+  },
+  {
+    "name": "CodeGemma-2B",
+    "url": "/models/CodeGemma-2B.yml"
+  },
+  {
+    "name": "CodeGemma-7B-Instruct",
+    "url": "/models/CodeGemma-7B-Instruct.yml"
+  },
+  {
+    "name": "CodeGemma-7B",
+    "url": "/models/CodeGemma-7B.yml"
+  },
+  {
+    "name": "CodeGen",
+    "url": "/models/CodeGen.yml"
+  },
+  {
+    "name": "CodeGen2",
+    "url": "/models/CodeGen2.yml"
+  },
+  {
+    "name": "CodeT5+-16B",
+    "url": "/models/CodeT5+-16B.yml"
+  },
+  {
+    "name": "CodeT5+-220M",
+    "url": "/models/CodeT5+-220M.yml"
+  },
+  {
+    "name": "CodeT5+-2B",
+    "url": "/models/CodeT5+-2B.yml"
+  },
+  {
+    "name": "CodeT5+-6B",
+    "url": "/models/CodeT5+-6B.yml"
+  },
+  {
+    "name": "CodeT5+-770M",
+    "url": "/models/CodeT5+-770M.yml"
+  },
+  {
+    "name": "CodeT5",
+    "url": "/models/CodeT5.yml"
+  },
+  {
+    "name": "Codegen2",
+    "url": "/models/Codegen2.5.yml"
+  },
+  {
+    "name": "Codex",
+    "url": "/models/Codex.yml"
+  },
+  {
+    "name": "Command-R+",
+    "url": "/models/Command-R+.yml"
+  },
+  {
+    "name": "Command-R",
+    "url": "/models/Command-R.yml"
+  },
+  {
+    "name": "CrystalChat",
+    "url": "/models/CrystalChat.yml"
+  },
+  {
+    "name": "CrystalCoder",
+    "url": "/models/CrystalCoder.yml"
+  },
+  {
+    "name": "DeBERTa",
+    "url": "/models/DeBERTa.yml"
+  },
+  {
+    "name": "DeciCoder",
+    "url": "/models/DeciCoder.yml"
+  },
+  {
+    "name": "DeepSeek-Coder",
+    "url": "/models/DeepSeek-Coder.yml"
+  },
+  {
+    "name": "DeepSeek-MoE-145B",
+    "url": "/models/DeepSeek-MoE-145B.yml"
+  },
+  {
+    "name": "DeepSeek-MoE-16B",
+    "url": "/models/DeepSeek-MoE-16B.yml"
+  },
+  {
+    "name": "DeepSeek-R1",
+    "url": "/models/DeepSeek-R1.yml"
+  },
+  {
+    "name": "DeepSeek-V3",
+    "url": "/models/DeepSeek-V3.yml"
+  },
+  {
+    "name": "Dou-Bao",
+    "url": "/models/Dou-Bao.yml"
+  },
+  {
+    "name": "ERNIE-3",
+    "url": "/models/ERNIE-3.0-Titan.yml"
+  },
+  {
+    "name": "ERNIE-3",
+    "url": "/models/ERNIE-3.0.yml"
+  },
+  {
+    "name": "Eagle",
+    "url": "/models/Eagle.yml"
+  },
+  {
+    "name": "Exaone",
+    "url": "/models/Exaone.yml"
+  },
+  {
+    "name": "FLM-101B",
+    "url": "/models/FLM-101B.yml"
+  },
+  {
+    "name": "FORGE",
+    "url": "/models/FORGE.yml"
+  },
+  {
+    "name": "FairSeq-Dense",
+    "url": "/models/FairSeq-Dense.yml"
+  },
+  {
+    "name": "Falcon-180B",
+    "url": "/models/Falcon-180B.yml"
+  },
+  {
+    "name": "Falcon-40B",
+    "url": "/models/Falcon-40B.yml"
+  },
+  {
+    "name": "GLM-130B",
+    "url": "/models/GLM-130B.yml"
+  },
+  {
+    "name": "GLaM",
+    "url": "/models/GLaM.yml"
+  },
+  {
+    "name": "GPT-2",
+    "url": "/models/GPT-2.yml"
+  },
+  {
+    "name": "GPT-3-Finnish",
+    "url": "/models/GPT-3-Finnish.yml"
+  },
+  {
+    "name": "GPT-3",
+    "url": "/models/GPT-3.5.yml"
+  },
+  {
+    "name": "GPT-3",
+    "url": "/models/GPT-3.yml"
+  },
+  {
+    "name": "GPT-4",
+    "url": "/models/GPT-4.yml"
+  },
+  {
+    "name": "GPT-4o",
+    "url": "/models/GPT-4o.yml"
+  },
+  {
+    "name": "GPT-J",
+    "url": "/models/GPT-J.yml"
+  },
+  {
+    "name": "GPT-Neo",
+    "url": "/models/GPT-Neo.yml"
+  },
+  {
+    "name": "GPT-NeoX-20B",
+    "url": "/models/GPT-NeoX-20B.yml"
+  },
+  {
+    "name": "GPT-SW3-40B",
+    "url": "/models/GPT-SW3-40B.yml"
+  },
+  {
+    "name": "GPT-SW3",
+    "url": "/models/GPT-SW3.yml"
+  },
+  {
+    "name": "Galactica",
+    "url": "/models/Galactica.yml"
+  },
+  {
+    "name": "Gemini-1",
+    "url": "/models/Gemini-1.5.yml"
+  },
+  {
+    "name": "Gopher",
+    "url": "/models/Gopher.yml"
+  },
+  {
+    "name": "Granite-20B-Code-Instruct",
+    "url": "/models/Granite-20B-Code-Instruct.yml"
+  },
+  {
+    "name": "Granite-34B-Code-Instruct",
+    "url": "/models/Granite-34B-Code-Instruct.yml"
+  },
+  {
+    "name": "Granite-3B-Code-Instruct",
+    "url": "/models/Granite-3B-Code-Instruct.yml"
+  },
+  {
+    "name": "Granite-8B-Code-Instruct",
+    "url": "/models/Granite-8B-Code-Instruct.yml"
+  },
+  {
+    "name": "Griffin",
+    "url": "/models/Griffin.yml"
+  },
+  {
+    "name": "Grok-0",
+    "url": "/models/Grok-0.yml"
+  },
+  {
+    "name": "Grok-1",
+    "url": "/models/Grok-1.yml"
+  },
+  {
+    "name": "HGRN2",
+    "url": "/models/HGRN2.yml"
+  },
+  {
+    "name": "Hawk",
+    "url": "/models/Hawk.yml"
+  },
+  {
+    "name": "HyperCLOVA",
+    "url": "/models/HyperCLOVA.yml"
+  },
+  {
+    "name": "InCoder-6B",
+    "url": "/models/InCoder-6B.yml"
+  },
+  {
+    "name": "Inflection-1",
+    "url": "/models/Inflection-1.yml"
+  },
+  {
+    "name": "Inflection-2",
+    "url": "/models/Inflection-2.yml"
+  },
+  {
+    "name": "InternLM",
+    "url": "/models/InternLM.yml"
+  },
+  {
+    "name": "Jais",
+    "url": "/models/Jais.yml"
+  },
+  {
+    "name": "Jamba-v0",
+    "url": "/models/Jamba-v0.1.yml"
+  },
+  {
+    "name": "Jamba",
+    "url": "/models/Jamba.yml"
+  },
+  {
+    "name": "Jiang-Base",
+    "url": "/models/Jiang-Base.yml"
+  },
+  {
+    "name": "Jiang",
+    "url": "/models/Jiang.yml"
+  },
+  {
+    "name": "Jurassic-1-Jumbo",
+    "url": "/models/Jurassic-1-Jumbo.yml"
+  },
+  {
+    "name": "Jurassic-1",
+    "url": "/models/Jurassic-1.yml"
+  },
+  {
+    "name": "Jurassic-2",
+    "url": "/models/Jurassic-2.yml"
+  },
+  {
+    "name": "LaMDA",
+    "url": "/models/LaMDA.yml"
+  },
+  {
+    "name": "Llama-2-13B",
+    "url": "/models/Llama-2-13B.yml"
+  },
+  {
+    "name": "Llama-2-70B",
+    "url": "/models/Llama-2-70B.yml"
+  },
+  {
+    "name": "Llama-2-7B",
+    "url": "/models/Llama-2-7B.yml"
+  },
+  {
+    "name": "Llama-2-chat-13B",
+    "url": "/models/Llama-2-chat-13B.yml"
+  },
+  {
+    "name": "Llama-2-chat-70B",
+    "url": "/models/Llama-2-chat-70B.yml"
+  },
+  {
+    "name": "Llama-2-chat-7B",
+    "url": "/models/Llama-2-chat-7B.yml"
+  },
+  {
+    "name": "Llama-3-70B-Instruct",
+    "url": "/models/Llama-3-70B-Instruct.yml"
+  },
+  {
+    "name": "Llama-3-70B",
+    "url": "/models/Llama-3-70B.yml"
+  },
+  {
+    "name": "Llama-3-8B-Instruct",
+    "url": "/models/Llama-3-8B-Instruct.yml"
+  },
+  {
+    "name": "Llama-3-8B",
+    "url": "/models/Llama-3-8B.yml"
+  },
+  {
+    "name": "Lyra-fr",
+    "url": "/models/Lyra-fr.yml"
+  },
+  {
+    "name": "MPT-30B",
+    "url": "/models/MPT-30B.yml"
+  },
+  {
+    "name": "MPT-7B",
+    "url": "/models/MPT-7B.yml"
+  },
+  {
+    "name": "Mamba",
+    "url": "/models/Mamba.yml"
+  },
+  {
+    "name": "Meena",
+    "url": "/models/Meena.yml"
+  },
+  {
+    "name": "Megalogon",
+    "url": "/models/Megalogon.yml"
+  },
+  {
+    "name": "Megatron-BERT",
+    "url": "/models/Megatron-BERT.yml"
+  },
+  {
+    "name": "Megatron-LM",
+    "url": "/models/Megatron-LM.yml"
+  },
+  {
+    "name": "Megatron-Turing",
+    "url": "/models/Megatron-Turing.yml"
+  },
+  {
+    "name": "MiniCPM3-4B",
+    "url": "/models/MiniCPM3-4B.yml"
+  },
+  {
+    "name": "Mistral-7B-Instruct-v0",
+    "url": "/models/Mistral-7B-Instruct-v0.1.yml"
+  },
+  {
+    "name": "Mistral-7B-Instruct-v0",
+    "url": "/models/Mistral-7B-Instruct-v0.2.yml"
+  },
+  {
+    "name": "Mistral-7B-v0",
+    "url": "/models/Mistral-7B-v0.1.yml"
+  },
+  {
+    "name": "Mixtral-8x22B-Instruct-v0",
+    "url": "/models/Mixtral-8x22B-Instruct-v0.1.yml"
+  },
+  {
+    "name": "Mixtral-8x22B-v0",
+    "url": "/models/Mixtral-8x22B-v0.1.yml"
+  },
+  {
+    "name": "Mixtral-8x7B-Instruct-v0",
+    "url": "/models/Mixtral-8x7B-Instruct-v0.1.yml"
+  },
+  {
+    "name": "Mixtral-8x7B-v0",
+    "url": "/models/Mixtral-8x7B-v0.1.yml"
+  },
+  {
+    "name": "NOOR",
+    "url": "/models/NOOR.yml"
+  },
+  {
+    "name": "NTT-Dialog",
+    "url": "/models/NTT-Dialog.yml"
+  },
+  {
+    "name": "NeMo-Megatron-GPT-20B",
+    "url": "/models/NeMo-Megatron-GPT-20B.yml"
+  },
+  {
+    "name": "NeMo-Megatron",
+    "url": "/models/NeMo-Megatron.yml"
+  },
+  {
+    "name": "Nemotron-4-340B-Base",
+    "url": "/models/Nemotron-4-340B-Base.yml"
+  },
+  {
+    "name": "Nemotron-4",
+    "url": "/models/Nemotron-4.yml"
+  },
+  {
+    "name": "OLMO-7B",
+    "url": "/models/OLMO-7B.yml"
+  },
+  {
+    "name": "OPT",
+    "url": "/models/OPT.yml"
+  },
+  {
+    "name": "OpenBMB",
+    "url": "/models/OpenBMB.yml"
+  },
+  {
+    "name": "OpenCALM-7b",
+    "url": "/models/OpenCALM-7b.yml"
+  },
+  {
+    "name": "OpenCALM",
+    "url": "/models/OpenCALM.yml"
+  },
+  {
+    "name": "OpenELM-1_1B-Instruct",
+    "url": "/models/OpenELM-1_1B-Instruct.yml"
+  },
+  {
+    "name": "OpenELM-1_1B",
+    "url": "/models/OpenELM-1_1B.yml"
+  },
+  {
+    "name": "OpenELM-270M-Instruct",
+    "url": "/models/OpenELM-270M-Instruct.yml"
+  },
+  {
+    "name": "OpenELM-270M",
+    "url": "/models/OpenELM-270M.yml"
+  },
+  {
+    "name": "OpenELM-3B-Instruct",
+    "url": "/models/OpenELM-3B-Instruct.yml"
+  },
+  {
+    "name": "OpenELM-3B",
+    "url": "/models/OpenELM-3B.yml"
+  },
+  {
+    "name": "OpenELM-450M-Instruct",
+    "url": "/models/OpenELM-450M-Instruct.yml"
+  },
+  {
+    "name": "OpenELM-450M",
+    "url": "/models/OpenELM-450M.yml"
+  },
+  {
+    "name": "OpenLLaMA-3Bv2",
+    "url": "/models/OpenLLaMA-3Bv2.yml"
+  },
+  {
+    "name": "OpenLLaMA-7Bv2",
+    "url": "/models/OpenLLaMA-7Bv2.yml"
+  },
+  {
+    "name": "OpenLLaMA",
+    "url": "/models/OpenLLaMA.yml"
+  },
+  {
+    "name": "OpenVoice",
+    "url": "/models/OpenVoice.yml"
+  },
+  {
+    "name": "PAGnol",
+    "url": "/models/PAGnol.yml"
+  },
+  {
+    "name": "PULI-GPTrio",
+    "url": "/models/PULI-GPTrio.yml"
+  },
+  {
+    "name": "PaLM-2",
+    "url": "/models/PaLM-2.yml"
+  },
+  {
+    "name": "PaLM",
+    "url": "/models/PaLM.yml"
+  },
+  {
+    "name": "Palmyra",
+    "url": "/models/Palmyra.yml"
+  },
+  {
+    "name": "PanGu-a",
+    "url": "/models/PanGu-a.yml"
+  },
+  {
+    "name": "Persimmon-8B",
+    "url": "/models/Persimmon-8B.yml"
+  },
+  {
+    "name": "Phi-1",
+    "url": "/models/Phi-1.5.yml"
+  },
+  {
+    "name": "Phi-1",
+    "url": "/models/Phi-1.yml"
+  },
+  {
+    "name": "Phi-2",
+    "url": "/models/Phi-2.yml"
+  },
+  {
+    "name": "Pile-T5 XXL",
+    "url": "/models/Pile-T5 XXL.yml"
+  },
+  {
+    "name": "Plato-2",
+    "url": "/models/Plato-2.yml"
+  },
+  {
+    "name": "Plato-XL",
+    "url": "/models/Plato-XL.yml"
+  },
+  {
+    "name": "PolyCoder",
+    "url": "/models/PolyCoder.yml"
+  },
+  {
+    "name": "Polyglot-Ko",
+    "url": "/models/Polyglot-Ko.yml"
+  },
+  {
+    "name": "Qwen-14B",
+    "url": "/models/Qwen-14B.yml"
+  },
+  {
+    "name": "Qwen-72B",
+    "url": "/models/Qwen-72B.yml"
+  },
+  {
+    "name": "Qwen1",
+    "url": "/models/Qwen1.5-32B.yml"
+  },
+  {
+    "name": "Qwen1",
+    "url": "/models/Qwen1.5-72B-Chat.yml"
+  },
+  {
+    "name": "Qwen1",
+    "url": "/models/Qwen1.5-7B.yml"
+  },
+  {
+    "name": "Qwen1",
+    "url": "/models/Qwen1.5-MoE-A2.7B.yml"
+  },
+  {
+    "name": "RWKV-v4-(Raven)",
+    "url": "/models/RWKV-v4-(Raven).yml"
+  },
+  {
+    "name": "RWKV-v4-World",
+    "url": "/models/RWKV-v4-World.yml"
+  },
+  {
+    "name": "RWKV-v5",
+    "url": "/models/RWKV-v5.yml"
+  },
+  {
+    "name": "RecurrentGemma",
+    "url": "/models/RecurrentGemma.yml"
+  },
+  {
+    "name": "RedPajamas-INCITE",
+    "url": "/models/RedPajamas-INCITE.yml"
+  },
+  {
+    "name": "SEA-LION",
+    "url": "/models/SEA-LION.yml"
+  },
+  {
+    "name": "SHAI",
+    "url": "/models/SHAI.yml"
+  },
+  {
+    "name": "SantaCoder",
+    "url": "/models/SantaCoder.yml"
+  },
+  {
+    "name": "Silo",
+    "url": "/models/Silo.yml"
+  },
+  {
+    "name": "Skywork",
+    "url": "/models/Skywork.yml"
+  },
+  {
+    "name": "Stable-Diffusion-v1-3",
+    "url": "/models/Stable-Diffusion-v1-3.yml"
+  },
+  {
+    "name": "Stable-Diffusion-v1",
+    "url": "/models/Stable-Diffusion-v1.1.yml"
+  },
+  {
+    "name": "Stable-Diffusion-v1",
+    "url": "/models/Stable-Diffusion-v1.2.yml"
+  },
+  {
+    "name": "Stable-Diffusion",
+    "url": "/models/Stable-Diffusion.yml"
+  },
+  {
+    "name": "StableLM-2",
+    "url": "/models/StableLM-2.yml"
+  },
+  {
+    "name": "StableLM-Japanese",
+    "url": "/models/StableLM-Japanese.yml"
+  },
+  {
+    "name": "StableLM",
+    "url": "/models/StableLM.yml"
+  },
+  {
+    "name": "StarCoder",
+    "url": "/models/StarCoder.yml"
+  },
+  {
+    "name": "StellarX-4B-V0",
+    "url": "/models/StellarX-4B-V0.yml"
+  },
+  {
+    "name": "StellarX",
+    "url": "/models/StellarX.yml"
+  },
+  {
+    "name": "Switch-C-2048",
+    "url": "/models/Switch-C-2048.yml"
+  },
+  {
+    "name": "Switch-C",
+    "url": "/models/Switch-C.yml"
+  },
+  {
+    "name": "T5-11b",
+    "url": "/models/T5-11b.yml"
+  },
+  {
+    "name": "T5-Pile",
+    "url": "/models/T5-Pile.yml"
+  },
+  {
+    "name": "T5",
+    "url": "/models/T5.yml"
+  },
+  {
+    "name": "TeleChat-12B",
+    "url": "/models/TeleChat-12B.yml"
+  },
+  {
+    "name": "TeleChat-7B",
+    "url": "/models/TeleChat-7B.yml"
+  },
+  {
+    "name": "Turing-NLG",
+    "url": "/models/Turing-NLG.yml"
+  },
+  {
+    "name": "UL2",
+    "url": "/models/UL2.yml"
+  },
+  {
+    "name": "Unnamed-Model",
+    "url": "/models/Unnamed-Model.yml"
+  },
+  {
+    "name": "Wu-Dao-1",
+    "url": "/models/Wu-Dao-1.0.yml"
+  },
+  {
+    "name": "Wu-Dao-2",
+    "url": "/models/Wu-Dao-2.0.yml"
+  },
+  {
+    "name": "Wu-Dao-GLM-XXL",
+    "url": "/models/Wu-Dao-GLM-XXL.yml"
+  },
+  {
+    "name": "XGLM",
+    "url": "/models/XGLM.yml"
+  },
+  {
+    "name": "XGen",
+    "url": "/models/XGen.yml"
+  },
+  {
+    "name": "XVERSE",
+    "url": "/models/XVERSE.yml"
+  },
+  {
+    "name": "YaLM",
+    "url": "/models/YaLM.yml"
+  },
+  {
+    "name": "Yayi-2",
+    "url": "/models/Yayi-2.yml"
+  },
+  {
+    "name": "Yi-1",
+    "url": "/models/Yi-1.5.yml"
+  },
+  {
+    "name": "Yuan-1",
+    "url": "/models/Yuan-1.0.yml"
+  },
+  {
+    "name": "Yuan-2",
+    "url": "/models/Yuan-2.0.yml"
+  },
+  {
+    "name": "Zephyr-141B",
+    "url": "/models/Zephyr-141B.yml"
+  },
+  {
+    "name": "Zidong-Taichu-2",
+    "url": "/models/Zidong-Taichu-2.0.yml"
+  },
+  {
+    "name": "Zidong-Taichu",
+    "url": "/models/Zidong-Taichu.yml"
+  },
+  {
+    "name": "dbrx-base",
+    "url": "/models/dbrx-base.yml"
+  },
+  {
+    "name": "dbrx-instruct",
+    "url": "/models/dbrx-instruct.yml"
+  },
+  {
+    "name": "gemma-1",
+    "url": "/models/gemma-1.1-2b.yml"
+  },
+  {
+    "name": "gemma-1",
+    "url": "/models/gemma-1.1-7b.yml"
+  },
+  {
+    "name": "gemma-2b",
+    "url": "/models/gemma-2b.yml"
+  },
+  {
+    "name": "gemma-7b",
+    "url": "/models/gemma-7b.yml"
+  },
+  {
+    "name": "japanese-large-lm-3",
+    "url": "/models/japanese-large-lm-3.6b.yml"
+  },
+  {
+    "name": "mT5-XXL",
+    "url": "/models/mT5-XXL.yml"
+  },
+  {
+    "name": "mT5",
+    "url": "/models/mT5.yml"
+  },
+  {
+    "name": "pythia-1",
+    "url": "/models/pythia-1.4B.yml"
+  },
+  {
+    "name": "pythia-12B",
+    "url": "/models/pythia-12B.yml"
+  },
+  {
+    "name": "pythia-14M",
+    "url": "/models/pythia-14M.yml"
+  },
+  {
+    "name": "pythia-160M",
+    "url": "/models/pythia-160M.yml"
+  },
+  {
+    "name": "pythia-1B",
+    "url": "/models/pythia-1B.yml"
+  },
+  {
+    "name": "pythia-2",
+    "url": "/models/pythia-2.8B.yml"
+  },
+  {
+    "name": "pythia-31M",
+    "url": "/models/pythia-31M.yml"
+  },
+  {
+    "name": "pythia-410M",
+    "url": "/models/pythia-410M.yml"
+  },
+  {
+    "name": "pythia-6",
+    "url": "/models/pythia-6.9B.yml"
+  },
+  {
+    "name": "pythia-70M",
+    "url": "/models/pythia-70M.yml"
+  }
 ]

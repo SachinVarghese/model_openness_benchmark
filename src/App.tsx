@@ -10,7 +10,7 @@ interface ModelItem {
 function App() {
   const [data, setData] = useState([]);
   const getData = () => {
-    fetch('index.json'
+    fetch('/model_openness_benchmark/index.json'
       , {
         headers: {
           'Content-Type': 'application/json',
