@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Amber",
+        "url": "/models/Amber.yml"
+    },
+    {
+        "name": "Aquila-7B",
+        "url": "/models/Aquila-7B.yml"
+    }
+]
