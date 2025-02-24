@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import Badge from "./Badge.tsx"
+import ModelList from "./ModelList.tsx"
 
 interface ModelItem {
   name: string
   url: string
+  org: string
 }
 
 function App() {
-  const [data, setData] = useState([]);
+  const [models, setModels] = useState([]);
   const getData = () => {
     fetch('/model_openness_benchmark/index.json'
       , {
@@ -21,8 +22,8 @@ function App() {
       .then(function (response) {
         return response.json();
       })
-      .then(function (myJson) {
-        setData(myJson)
+      .then(function (data) {
+        setModels(data.map((d: ModelItem,k: string)=> ({...d, "id": k})))
       });
   }
   useEffect(() => {
@@ -31,18 +32,10 @@ function App() {
 
   return (
     <>
-      <h1>Model Openness Benchmark</h1>
-      <div>
+      <h1 style={{}}>Model Openness Benchmark</h1>
         {
-          data && data.length > 0 && data.map((item: ModelItem, key) => <tr key={key}>
-            <td >
-              <a href={`https://github.com/lfai/model_openness_tool/blob/main${item.url}`}>{item.name}</a>
-            </td>
-            <td ><span >Beijing Academy of Artificial Intelligence (BAAl)</span></td>
-            <td>{Badge()}</td>
-          </tr>)
+          models && models.length > 0 && ModelList({models})
         }
-      </div>
     </>
   )
 }
